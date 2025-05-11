@@ -1,4 +1,4 @@
-name: Create the latest version
+name: Build and push image to Docker Hub
 
 on:
   workflow_dispatch:
