@@ -42,6 +42,7 @@ docker run -d \
 ## 环境变量
 
 - `DNSPOD_API_TOKEN`: DNSPod API Token，用于DNS验证
+- 您可以直接在配置中用实际的鉴权令牌替换{env.DNSPOD_API_TOKEN}，其格式为"APP_ID,APP_TOKEN"，而不必使用环境变量
 
 ## 构建镜像
 
